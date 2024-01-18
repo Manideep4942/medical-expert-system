@@ -51,7 +51,8 @@ nav ul li a {
 }
 
 body {
-    background-image: url("https://t4.ftcdn.net/jpg/03/46/72/31/360_F_346723144_yIgFq8kWH7U5UKNJ2JFEs0Wfz6VgxD1l.jpg");
+    /* background-image: url("https://th.bing.com/th/id/OIP.Lk95HgpAC7lm-4AW3tWuZwHaE6?w=240&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"); */
+    background-image: url("https://th.bing.com/th/id/OIP.j6zHlQPtzP5-e0L83pu5SgHaE7?w=256&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7");
     background-size: cover;
 
 
@@ -61,7 +62,7 @@ body {
     margin: 6px 0px;
     width: 95px;
     height: 95px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFz4Bo-LYAxBEIamxDdfFSsX7plV-IKob0g&usqp=CAU");
+    background-image: url("https://th.bing.com/th?q=Medical+Shop+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247");
     background-size: cover;
 
 }
@@ -75,12 +76,18 @@ body {
 }
 
 .container3 {
-    width: 80%;
-    margin: 20px auto;
+    width: 50%;
+    height: 60vh;
+    /* margin: 20px auto; */
+    /* position: relative;
+    top: 28px;
+    left: 680px; */
+    justify-content: center;
     border: 1px solid #ccc;
     background-color: white;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Style the title */
@@ -174,4 +181,23 @@ body {
 /* Style the result item value */
 .result-item-value {
     color: #04AA6D;
+}
+
+/* this is for side image for form beside */
+.imag{
+    width: 40%;
+    height: 70vh;
+    background-image: url("https://www.openresidencypositions.com/wp-content/uploads/2020/10/open-residency-positions-openings.png");
+    background-size: cover;
+    top: -24px;
+    position: relative;
+}
+.twocont{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    position: relative;
+    top: 45px;
 }
